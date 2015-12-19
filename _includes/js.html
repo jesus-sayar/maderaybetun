@@ -1,0 +1,36 @@
+<!-- JS Global Compulsory -->
+<script src="{{ "/assets/js/plugins/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/plugins/jquery-migrate.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/plugins/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+
+<!-- JS Implementing Plugins -->
+<script src="{{ "/assets/js/plugins/back-to-top.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/plugins/smoothScroll.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/plugins/jquery.parallax.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/plugins/jquery.fancybox.pack.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/plugins/owl.carousel.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/plugins/jquery.themepunch.tools.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/plugins/jquery.themepunch.revolution.min.js" | prepend: site.baseurl }}"></script>
+
+<!-- JS Customization -->
+<script src="{{ "/assets/js/custom.js" | prepend: site.baseurl }}"></script>
+<!-- JS Page Level -->
+<script src="{{ "/assets/js/app.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/custom/fancy-box.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/custom/owl-carousel.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/custom/revolution-slider.js" | prepend: site.baseurl }}"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        App.init();
+        App.initParallaxBg();
+        FancyBox.initFancybox();
+        OwlCarousel.initOwlCarousel();
+        RevolutionSlider.initRSfullWidth();
+    });
+</script>
+<!--[if lt IE 9]>
+    <script src="{{ "/assets/js/plugins/respond.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/plugins/html5shiv.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/plugins/placeholder-IE-fixes.js" | prepend: site.baseurl }}"></script>
+<![endif]-->
