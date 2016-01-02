@@ -1,1 +1,7 @@
-/* Add here all your css styles (customizations) */
+.logo img {
+  height: 40px;
+}
+
+.footer-logo {
+  height: 35px;
+}
